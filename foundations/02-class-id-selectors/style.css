@@ -1,0 +1,19 @@
+.oddP {
+    background-color: #ffb6c1;
+    font-family: Verdana, "DejaVu Sans" , sans-serif;
+}
+
+#num2 {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+#number4 {
+    background-color: rgb(143, 237, 143);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.clasNum3 {
+    font-size: 24px;
+}
