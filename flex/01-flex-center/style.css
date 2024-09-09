@@ -3,7 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+<<<<<<< HEAD
   display:flex;
+=======
+  display: flex;
+>>>>>>> 406e27d7d2e3050676d8049732543c18e94e6e15
   align-items: center;
   justify-content: center;
 }
