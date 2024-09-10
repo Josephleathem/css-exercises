@@ -24,3 +24,58 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution*/
+/* .banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-title {
+  margin-bottom: 16px;
+}
+
+
+.banner-body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.item {
+  text-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+.margin-item {
+  margin-right: 52px;
+} */
+
+
+/* Correct Solution */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
