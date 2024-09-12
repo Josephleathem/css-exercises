@@ -27,3 +27,122 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*My solution*/ /*Couldnt figure out the cards box display*/
+/* body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.center {
+display: flex;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  width: 300px;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.cards {
+  padding: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card {
+  width: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Correct SOLUTION */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
